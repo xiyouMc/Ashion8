@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Widget">
+        <item name="android:textAppearance">?android:textAppearance</item>
+    </style>
+
+    <style name="Widget.Button">
+        <item name="android:background">@android:drawable/btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Widget.TextView">
+        <item name="android:background">@android:drawable/btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="alert_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="dialog_blue_button" parent="Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="dialog_title_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="dialog_message_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+    </style>
+</resources>

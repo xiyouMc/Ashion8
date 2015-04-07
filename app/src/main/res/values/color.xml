@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#90EE90</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="actionbar_color">#019587</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="float_transparent">#66000000</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+</resources>
